@@ -1,0 +1,97 @@
+.navbar-section {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "sonora", sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: underline; ;
+}
+
+/* Here is my quick presentation--------------------------------------------*/
+.quick-section{
+    display: flex;
+    gap:30px;   
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(207, 212, 216);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+img{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 100px;   
+}
+
+
+
+
+.quick-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "sonora", sans-serif;
+}
+
+
+
+.quick-text p {
+    font-size: 20px;
+}
+/* Quick Presentation ends here------------------------------------------------*/
+
+
+
+/* Here starts the second section about tegnologies that I know-----------*/
+.tegnologies-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tegnologies-section img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.tegnologies-section div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-weight: bold;
+    font-family: "sonora", sans-serif;
+}
+/* second section ends here-----------------------------------------------*/
+
+
+
+
+
+
+/* responsive media for phones--------------------------------------------*/
+@media (max-width: 768px) {
+    .quick-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tegnologies-section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+/*end of responsive media for phones--------------------------------------*/
+
