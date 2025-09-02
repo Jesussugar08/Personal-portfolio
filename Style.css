@@ -77,6 +77,45 @@ img{
 
 
 
+/* Here starts the third section about my projects--------------------------*/
+.project-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "sonora", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+
+
+.stimg{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.st-project{
+    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-bottom: 100px;
+    
+}
+
+
+.st-project-text {
+    max-width: 400px; 
+    font-family: "sonora", sans-serif;
+    font-size: 18px;
+}
+
+#icon{
+    width: 80px;
+    height: 50px;
+}
+/* third section ends here--------------------------------------------------*/
 
 
 
@@ -85,6 +124,7 @@ img{
     .quick-section {
         flex-direction: column;
         text-align: center;
+        
     }
 
     .tegnologies-section {
@@ -92,15 +132,22 @@ img{
         text-align: center;
         align-items: center;
     }
+
+    .st-project {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .st-project-text {
+        max-width: 90%; 
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px ) {
     .navbar-section {
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        font-size: 18px;
-        padding: 12px 0;
+        align-items: center; 
     }
     .navbar-section div {
         width: 100%;
@@ -112,7 +159,8 @@ img{
         padding: 10px 0;
     }
 }
-/*end of responsive media for phones--------------------------------------*/
+/*end of resp  onsive media for phones--------------------------------------*/
+
 
 
 
