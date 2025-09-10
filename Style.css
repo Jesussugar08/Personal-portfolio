@@ -16,17 +16,20 @@ a{
 .quick-section{
     display: flex;
     gap:30px;   
-    align-items: center; 
     justify-content: center;
-    background-color: rgb(207, 212, 216);
+    background-color: rgba(124, 132, 138, 0.308);
     margin-top: 50px;
     border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 img{
     margin-top: 20px;
-    position: relative;
+    
     border-radius: 100px;   
 }
 
@@ -60,10 +63,9 @@ img{
 }
 
 .tegnologies-section img {
-    width: 200px;
-    height: 150px;
-    border-radius: 10px;
-    border: 3px solid black;
+    width: 145px;
+    height: 100px;
+    
 }
 
 .tegnologies-section div{
@@ -160,6 +162,7 @@ img{
     }
 }
 /*end of resp  onsive media for phones--------------------------------------*/
+
 
 
 
